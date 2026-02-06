@@ -12,3 +12,10 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello from GitHub Actions"
+
+  jump:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello again
+        run: echo "Hello from GitHub Actions Again"
